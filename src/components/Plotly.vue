@@ -2,10 +2,10 @@
   <div :id="id" v-resize:debounce.100="onResize" />
 </template>
 <script>
-import Plotly from "plotly.js";
 import events from "./events.js";
 import methods from "./methods.js";
 import { camelize } from "@/utils/helper";
+import Plotly from "plotly.js/dist/plotly-gl3d";
 
 const directives = {};
 if (typeof window !== "undefined") {
