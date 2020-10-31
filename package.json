@@ -1,5 +1,5 @@
 {
-  "name": "vue-plotly",
+  "name": "@cadriel/vue-plotly",
   "version": "1.1.0",
   "private": false,
   "scripts": {
@@ -11,7 +11,10 @@
     "prepublishOnly": "npm run lint && npm run build && npm run build:doc",
     "test:coverage": "vue-cli-service test:unit --coverage --verbose && codecov"
   },
-  "exports": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": "git://github.com/cadriel/vue-plotly.git",
   "main": "dist/vue-plotly.umd.js",
   "module": "dist/vue-plotly.common.min.js",
   "files": [
