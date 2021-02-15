@@ -1,6 +1,6 @@
 {
   "name": "@cadriel/vue-plotly",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve ./example/main.js --open",
@@ -26,7 +26,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "core-js": "^3.6.4",
-    "plotly.js": "^1.52.1",
+    "plotly.js": "^1.58.4",
     "vue": "^2.6.11",
     "vue-resize-directive": "^1.2.0"
   },
